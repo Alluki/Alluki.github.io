@@ -4,5 +4,16 @@ body {
 	font-size: 10px;
 	margin-right: auto;
 	margin-left: auto;
+}
 
+h1 {
+	text-align: center;
+}
+
+.bild1 {
+	text-align: center;
+}
+
+.github {
+	text-align: center;
 }
