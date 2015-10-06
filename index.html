@@ -5,9 +5,27 @@
     	<link rel="stylesheet"
           href="bower_components/chartist/dist/chartist.min.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="bower_components/chartist/dist/chartist.min.js"></script>
   	</head>
 	<body>
 		<h1>Whats the first thing we do in the morning?</h1>
+
+		<div class="ct-chart"> </div>
+			<script>
+			var data = {
+  				series: [8, 1, 1]
+			};
+
+			var sum = function(a, b) { return a + b };
+
+			new Chartist.Pie('.ct-chart', data, {
+  			labelInterpolationFnc: function(value) {
+    		return Math.round(value / data.series.reduce(sum) * 100) + '%';
+  			}
+			});
+
+			</script>
+
 		<div class="bild1"> 
 			<img src="https://s-media-cache-ak0.pinimg.com/736x/a1/e3/6b/a1e36bcb8ce179bd8cc8db28ff4ef6fb.jpg"/>
 		</div>
@@ -16,6 +34,5 @@
 		<p>I'm hosted with GitHub Pages.</p>
 		</div>
 
-		<script src="bower_components/chartist/dist/chartist.min.js"></script>
 	</body>
 </html>
