@@ -1,17 +1,51 @@
 body {
-	background-color: #3366cc;
+	background-color: #62C299;
 	font-family: sans-serif;
-	font-size: 10px;
+	font-size: 12px;
+	font-variant: small-caps;
+	border: solid: #62C299; 
 	margin-right: auto;
 	margin-left: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin right: auto;
+	margin-left: auto;
+}
+
+li {
+}
+
+a {
 }
 
 h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+	padding-bottom: 10px
+
+}
+
+.ct-chart {
+	padding-top: 50px;
+	padding-bottom: 500px;
+	page-break-after: always;
+}
+
+.ct-graph {
+	padding-top: 50px;
+	padding-bottom: 500px;
+	page-break-after: always;
+}
+
 .bild1 {
 	text-align: center;
+	page-break-inside: 20px;
+	page
 }
 
 .github {
