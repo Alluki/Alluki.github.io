@@ -24,28 +24,23 @@ h1 {
 	text-align: center;
 }
 
-h2 {
-	text-align: center;
-	padding-bottom: 10px
-
-}
-
 .ct-chart {
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 500px;
 	page-break-after: always;
 }
 
 .ct-graph {
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 500px;
 	page-break-after: always;
 }
 
 .bild1 {
 	text-align: center;
-	page-break-inside: 20px;
-	page
+	padding-top: 100px;
+	padding-bottom: auto;
+	page-break-after: always;
 }
 
 .github {
