@@ -36,7 +36,7 @@
     			var animationDefinition = {
       			'stroke-dashoffset': {
     		    id: 'anim' + data.index,
-        		dur: 4000,
+        		dur: 10000,
         		from: -pathLength + 'px',
         		to:  'px',
         		easing: Chartist.Svg.Easing.easeOutQuint,
@@ -103,8 +103,8 @@
   				if(data.type === 'line' || data.type === 'area') {
     			data.element.animate({
       			d: {
-        		begin: 10000 * data.index,
-        		dur: 8000,
+        		begin: 20000 * data.index,
+        		dur: 10000,
         		from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
         		to: data.path.clone().stringify(),
         		easing: Chartist.Svg.Easing.easeOutQuint
@@ -128,7 +128,7 @@
 		</div>
 		
 		<div class="github"
-		<p>I'm hosted with GitHub Pages.</p>
+		<p> created by allan salih</p>
 		</div>
 
 	</body>
