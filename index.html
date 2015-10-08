@@ -15,10 +15,11 @@
 			<script>
 				var chart = new Chartist.Pie('.ct-chart', {
   				series: [1.6, 1, 8.4],
-  				labels: [1, 2, 3,]
+  				labels: [16, 10, 84,]
 				}, {
   				donut: true,
-  				showLabel: false
+  				showLabel: true
+
 				});
 
 				chart.on('draw', function(data) {
@@ -70,12 +71,22 @@
 				});
 			</script>
 
+    <P> 
+      | 
+      <span style="color:#C44441">Traditionell news, tv/analog</span>
+       | 
+      <span style="color:#1D73AA">Spend time with love</span>
+       |  
+      <span style="color:#7A5892">Check the smartphone</span>
+       | 
+    </P>
+
 		<h1> Why ego and not love?</h1>
 
 		<div class="ct-graph">
 			<script>
 				var chart = new Chartist.Line('.ct-graph', {
-  				labels: ['2009', '2010', '2011', '2012', '2014', '2015'],
+  				labels: ['iPhone 3GS', 'iPhone4', 'iPhone 4S', 'iPhone 5', 'iPhone 5S'],
   				series: [
     			[9, 7, 5, 4, 3.5, 1.5],
     			[1, 3, 5, 8, 8.5, 9.4],
@@ -84,15 +95,15 @@
 				}, {
   				low: 0,
 				showArea: true,
-  				showPoint: false,
-  				fullWidth: true
+  				showPoint: true,
+  				fullWidth: false,
 				});
 
 				chart.on('draw', function(data) {
   				if(data.type === 'line' || data.type === 'area') {
     			data.element.animate({
       			d: {
-        		begin: 5000 * data.index,
+        		begin: 10000 * data.index,
         		dur: 8000,
         		from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
         		to: data.path.clone().stringify(),
@@ -103,7 +114,15 @@
 				});
 			</script>
 		</div>	
+    <P> 
+      | 
+      <span style="color: red">Traditionell news, tv/analog</span>
+       | 
+      <span style="color: black">Spend time with love</span>
+       |  
+    </P>
 
+    <h1>So every once in a while have a muffin and spread some love</h1>
 		<div class="bild1"> 
 			<img src="https://s-media-cache-ak0.pinimg.com/736x/a1/e3/6b/a1e36bcb8ce179bd8cc8db28ff4ef6fb.jpg"/>
 		</div>

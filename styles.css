@@ -1,36 +1,73 @@
 body {
-	background-color: #62C299;
+	background-color: #CCCCCC;
 	font-family: sans-serif;
 	font-size: 12px;
 	font-variant: small-caps;
-	border: solid: #62C299; 
+	border: solid: #CCCCCC; 
 	margin-right: auto;
 	margin-left: auto;
 }
 
 h1 {
 	text-align: center;
-	padding-top: 100px;
-	
+	padding-top: 50px;	
 }
 
 .ct-chart {
-	padding-top: 100px;
-	padding-bottom: 500px;
-	page-break-after: always;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 400px;
+	height: 550px;
+	border: 0px black solid;
+	margin: auto;
+}
+
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+  stroke: red;
+}
+
+.ct-series-b .ct-line,
+.ct-series-b .ct-point {
+  stroke: black;
+}
+
+.ct-series-a .ct-slice-donut {
+	stroke: #C44441;
+}
+
+.ct-series-b .ct-slice-donut {
+	stroke: #1D73AA;
+}
+
+.ct-series-c .ct-slice-donut {
+	stroke: #7A5892;
+}
+
+p {
+	width: 400px;
+	height: 550px;
+	border: 0px black solid;
+	margin: auto;
+	text-align: center;
 }
 
 .ct-graph {
-	padding-top: 100px;
-	padding-bottom: 500px;
-	page-break-after: always;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 600px;
+	height: 500px;
+	border: 0px black solid;
+	margin: auto;
 }
 
 .bild1 {
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: auto;
-	page-break-after: always;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .github {
