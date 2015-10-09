@@ -76,4 +76,13 @@ p {
 	font-size: 17px;
 }
 
+.ct-label {
+	color: black !important;
+}
+
+.ct-series-c .ct-slice-donut {
+	color: black !important;
+
+}
+
 
