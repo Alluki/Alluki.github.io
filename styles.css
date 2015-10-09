@@ -46,11 +46,13 @@ h1 {
 }
 
 p {
-	width: 400px;
+	width: 600px;
 	height: 550px;
 	border: 0px black solid;
 	margin: auto;
 	text-align: center;
+	font-size: 17px;
+
 }
 
 .ct-graph {
